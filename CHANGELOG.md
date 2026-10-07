@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Dependencies: refresh provider and MCP SDKs, Chrome tooling, terminal dependencies, Vitest/coverage, Hono, and Vite within the two-day cooldown; retain Node >=24 and Undici 7 compatibility; thanks @dependabot.
 - Files: apply default-ignored directory names only below the directory or glob base passed to `--file`, so a bundle under `/tmp` or a `build/` folder is no longer dropped when oracle runs from elsewhere; fixes #531, thanks @postoso.
 
 ## 0.21.4 - 2026-10-01
